@@ -1,3 +1,3 @@
-# simple_telegram_logger
+# Simple Telegram Logger
 
 # -_-
