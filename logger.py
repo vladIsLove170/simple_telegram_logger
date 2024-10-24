@@ -34,7 +34,7 @@ class Logger:
         return status
 
     def send_long_message(self, long_message: str) -> bool:
-        msgs = [long_message[i:i + 4096] for i in range(0, len(long_message), 4096)]
+        msgs = [long_message[i:i + self.MAX_LENGTH_MESSAGE] for i in range(0, len(long_message), self.MAX_LENGTH_MESSAGE)]
 
         results = []
 
